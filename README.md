@@ -1,4 +1,4 @@
-# SAMSA2 - A complete metatranscriptome analysis pipeline
+## SAMSA2 - A complete metatranscriptome analysis pipeline
 
 *****
 
@@ -16,7 +16,7 @@
 
 *****
 
-# Version 2 of the SAMSA pipeline - faster!  Lighter!  More options!  Less waiting!  
+## Version 2 of the SAMSA pipeline - faster!  Lighter!  More options!  Less waiting!  
 
 ### How to cite:
 
