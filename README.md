@@ -18,12 +18,6 @@
 
 ## Version 2 of the SAMSA pipeline - faster!  Lighter!  More options!  Less waiting!  
 
-### How to cite:
-
-If you use SAMSA2, please cite the following paper:
-
-Westreich, S.T., Treiber, M.L., Mills, D.A. et al. SAMSA2: a standalone metatranscriptome analysis pipeline. *BMC Bioinformatics* **19**, 175 (2018) doi:10.1186/s12859-018-2189-z
-
 ### New in version 2:
 * DIAMOND integration, allowing for SAMSA2 to be run without ever needing an MG-RAST account.
 * Option to annotate against custom databases.
@@ -31,7 +25,6 @@ Westreich, S.T., Treiber, M.L., Mills, D.A. et al. SAMSA2: a standalone metatran
 * PCA plots and other graphical outputs.
 * Filtering of ribosomes for even more speed.
 * And more!
-
 ### Dependencies
 
 SAMSA2 requires Python2 for aggregation scripts.  Currently, this pipeline works mostly with Python3, although there may be some errors not yet caught.
@@ -56,8 +49,6 @@ The following programs can be downloaded OR can be installed from the binaries p
     ./configure
     make
     ```
-
-
 ## Quick start
 
 1. Download SAMSA2:`git clone https://github.com/transcript/samsa2.git`
@@ -115,18 +106,3 @@ Note: these programs are located in the "R_scripts" folder.  They all require tw
 Step 1: check the documentation!  The documentation includes in-depth explanations of each step, including sample commands.  Be sure to check there if you're having an issue on one particular step.
 
 If you're unsure if your files are being processed properly, take a look at the sample files.  These correspond to each step in the pipeline.  If a quick look (from the command line, "less $file") reveals a dissimilar setup to these example files, there may be an issue with the most recent program used in the pipeline.
-
-Check out the Google Group for SAMSA!  [https://groups.google.com/forum/#!forum/samsa-bioinformatics-group](https://groups.google.com/forum/#!forum/samsa-bioinformatics-group).  
-
-If you find an error with one of these programs, or simply want to ask me questions, you can contact me at [swestreich@gmail.com](mailto:swestreich@gmail.com).  
-
-#### Citations of other tools used:
-Westreich, S.T., Korf, I., Mills, D.A., Lemay, D.G.  (2016) SAMSA: A comprehensive metatranscriptome analysis pipeline.  BMC Bioinformatics.
-
-Bolger, A. M., Lohse, M., & Usadel, B. (2014). Trimmomatic: A flexible trimmer for Illumina Sequence Data. Bioinformatics, btu170.
-
-Kopylova E., Noé L. and Touzet H., "SortMeRNA: Fast and accurate filtering of ribosomal RNAs in metatranscriptomic data", Bioinformatics (2012), doi: 10.1093/bioinformatics/bts611.
-
-Zhang, J., Kobert, K., Flouri, T., Stamatakis, A.  (2014). PEAR: a fast and accurate Illumina paired-end Paired-End reAd mergeR. Bioinformatics.
-
-=======
