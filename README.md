@@ -39,9 +39,20 @@ SAMSA2 requires Python2 for aggregation scripts.  Currently, this pipeline works
 The following programs can be downloaded OR can be installed from the binaries provided in the programs/ folder.
 
 1. DIAMOND, version 0.8.3: https://github.com/bbuchfink/diamond
+
 2. Trimmomatic, a flexible read cleaner: http://www.usadellab.org/cms/?page=trimmomatic
+
 3. PEAR, if using paired-end data (recommended): https://sco.h-its.org/exelixis/web/software/pear/
+
 4. SortMeRNA: http://bioinfo.lifl.fr/RNA/sortmerna/
+```
+wget https://github.com/biocore/sortmerna/archive/2.1.tar.gz
+tar xzvf 2.1.tar.gz
+cd sortmerna-2.1
+./configure
+make
+```
+
 
 ## Quick start
 
