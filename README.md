@@ -20,7 +20,7 @@
 
 ### New in version 2:
 * DIAMOND integration, allowing for SAMSA2 to be run without ever needing an MG-RAST account.
-* Option to annotate against custom databases.
+* Option to annotate against custom databases (fasta files with stains you want to show).
 * Better, more polished R scripts that can be executed from the command line.
 * PCA plots and other graphical outputs.
 * Filtering of ribosomes for even more speed.
