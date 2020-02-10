@@ -45,13 +45,13 @@ The following programs can be downloaded OR can be installed from the binaries p
 3. PEAR, if using paired-end data (recommended): https://sco.h-its.org/exelixis/web/software/pear/
 
 4. SortMeRNA: http://bioinfo.lifl.fr/RNA/sortmerna/
-```
-wget https://github.com/biocore/sortmerna/archive/2.1.tar.gz
-tar xzvf 2.1.tar.gz
-cd sortmerna-2.1
-./configure
-make
-```
+    ```
+    wget https://github.com/biocore/sortmerna/archive/2.1.tar.gz
+    tar xzvf 2.1.tar.gz
+    cd sortmerna-2.1
+    ./configure
+    make
+    ```
 
 
 ## Quick start
