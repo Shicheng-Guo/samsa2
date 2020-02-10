@@ -41,6 +41,10 @@ The following programs can be downloaded OR can be installed from the binaries p
 1. DIAMOND, version 0.8.3: https://github.com/bbuchfink/diamond
 
 2. Trimmomatic, a flexible read cleaner: http://www.usadellab.org/cms/?page=trimmomatic
+    ```
+    wget http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-Src-0.39.zip
+    cd TrimGalore-0.4.5
+    ```
 
 3. PEAR, if using paired-end data (recommended): https://sco.h-its.org/exelixis/web/software/pear/
 
