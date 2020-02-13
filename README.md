@@ -100,7 +100,3 @@ Note: these programs are located in the "R_scripts" folder.  They all require tw
 * make_combined\_graphs.R - generates two stacked bar graphs: a relative version (y axis stretched to 100%) and an absolute version (y axis is raw counts).
 * run_DESeq\_stats.R - computes p-values and most significant differences between summarized results sets.
 
-#### Need assistance?    
-Step 1: check the documentation!  The documentation includes in-depth explanations of each step, including sample commands.  Be sure to check there if you're having an issue on one particular step.
-
-If you're unsure if your files are being processed properly, take a look at the sample files.  These correspond to each step in the pipeline.  If a quick look (from the command line, "less $file") reveals a dissimilar setup to these example files, there may be an issue with the most recent program used in the pipeline.
