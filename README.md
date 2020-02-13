@@ -16,7 +16,15 @@
 * Step 4: `mkdir ~/hpc/tools/samsa2/input_files` and copy fastq files into this folder
 * Step 5: `mkdir ~/hpc/tools/samsa2/result_files` and the results will be set here
 * Step 6: pie chart plot: `Rscript Subsystems_pie_charts.R -I ./result/ -O xx -L 5`
-
+* Step 7:`Rscript ./R_scripts/diversity_graphs.R`
+* Step 8:`Rscript ./R_scripts/diversity_stats.R`
+* Step 9:`Rscript ./R_scripts/get_normalized_counts_table.R`
+* Step 10:`Rscript ./R_scripts/get_raw_counts_table.R`
+* Step 11:`Rscript ./R_scripts/make_combined_graphs.R`
+* Step 12:`Rscript ./R_scripts/make_DESeq_heatmap.R`
+* Step 13:`Rscript ./R_scripts/make_DESeq_PCA.R`
+* Step 14:`Rscript ./R_scripts/run_DESeq_stats.R`
+* Step 15:`Rscript ./R_scripts/Subsystems_pie_charts.R`
 
 ### New in version 2:
 * Option to annotate against custom databases (`fasta files with stains you want to show`).
