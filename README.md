@@ -13,7 +13,7 @@
 *****
 ### Usage protocol and pipeline
 
-* Step 1: download and install `samsa2` into a specfic folder, be careful, this folder will be working folder in your future analysis.
+* Step 1: Install `samsa2` into `/hpc/tools/samsa2/`, be careful, it will be working folder in future analysis.
 
 
 
