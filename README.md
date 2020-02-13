@@ -3,7 +3,7 @@
 *****
 * Multithreading added for PEAR, Trimmomatic, SortMeRNA
 * The script automatically creates a `checkpoint` file in `input_files`. Once a step is finished, it writes the name of that specific step in `checkpoint` and that step is skipped on a rerun of the master_script.
-* New version of the master script called `master\_script\_preserving\_unmerged.sh`.  In this script, in the merging step, unmerged reads are concatenated and added to a single file. The forward read and the reverse (complement) read are concatenated with a string of 20 Ns in the middle: This is done through a new R script entitled: `combining_umerged.R`
+* New version of the master script called `master_script_preserving_unmerged.sh`.  In this script, in the merging step, unmerged reads are concatenated and added to a single file. The forward read and the reverse (complement) read are concatenated with a string of 20 Ns in the middle: This is done through a new R script entitled: `combining_umerged.R`
 * Extra care is taken to remove unnecessary files once a step is performed to keep disk usage at a minimum.
 * All options, read & program location are to be specified in the first section of the script.
 * The script is formated to be run on a HPC using a SLURM job scheduler, but this can be easily changed / removed.
