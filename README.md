@@ -19,12 +19,9 @@
 * Step 4: `mkdir ~/hpc/tools/samsa2/input_files` and copy fastq files into this folder
 * Step 5: `mkdir ~/hpc/tools/samsa2/result_files` and the results will be set here
 
-
 ### New in version 2:
-* DIAMOND integration, allowing for SAMSA2 to be run without ever needing an MG-RAST account.
 * Option to annotate against custom databases (`fasta files with stains you want to show`).
-* PCA plots and other graphical outputs.
-* Filtering of ribosomes for even more speed.
+
 ### Dependencies
 SAMSA2 requires Python2 for aggregation scripts.  Currently, this pipeline works mostly with Python3, although there may be some errors not yet caught.
 
