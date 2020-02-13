@@ -25,7 +25,7 @@ print("USAGE: $ make_combined_graphs.R -D working_directory/ -O save.filename -N
 
 # check for necessary specs
 if (is.null(opt$directory)) {
-  print ("WARNING: No working directory specified with '-d' flag.")
+  print ("WARNING: No working directory specified with '-D' flag.")
   stop()
 } else {
   cat ("Working directory is ", opt$directory, "\n")
