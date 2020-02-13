@@ -2,14 +2,11 @@
 
 *****
 * Multithreading added for PEAR, Trimmomatic, SortMeRNA
-* The script automatically creates a `checkpoint` file. Once a step is finished, it writes the name of that specific step in `checkpoint` and that step is skipped on a rerun of the master_script. This is done to avoid re-running CPU-intensive steps if unnecessary.
+* The script automatically creates a `checkpoint` file in `input_files`. Once a step is finished, it writes the name of that specific step in `checkpoint` and that step is skipped on a rerun of the master_script. This is done to avoid re-running CPU-intensive steps if unnecessary.
 * A new version of the master script now exists, called "master\_script\_preserving\_unmerged.sh".  In this script, in the merging step, unmerged reads are concatenated and added to a single file. The forward read and the reverse (complement) read are concatenated with a string of 20 Ns in the middle: This is done through a new R script entitled: `combining_umerged.R`
 * Extra care is taken to remove unnecessary files once a step is performed to keep disk usage at a minimum.
-* Each step contains an exit statement to be printed if the master script dies due to an unforseen error.
-* Trimmomatic removes adapter contamination according to a specific fasta file.
 * All options, read & program location are to be specified in the first section of the script.
 * The script is formated to be run on a HPC using a SLURM job scheduler, but this can be easily changed / removed.
-* The flag --num_alignments 0 in the ribosomal `sortmrna` step has been removed. This caused problems and slowed things down a lot. Plus, we don't care about the rRNA alignments - whether a sequence aligns to 1 or 1,000 rRNA, it's out anyways...
 *****
 ### Usage protocol and pipeline
 
