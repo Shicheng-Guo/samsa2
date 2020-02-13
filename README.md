@@ -14,7 +14,8 @@
 ### Usage protocol and pipeline
 
 * Step 1: Install `samsa2` into `/hpc/tools/samsa2/`, be careful, it will be working folder in future analysis.
-
+* Step 2: download all reference with `./setup_and_test/full_database_download.bash`, ... very large
+*
 
 ### New in version 2:
 * DIAMOND integration, allowing for SAMSA2 to be run without ever needing an MG-RAST account.
