@@ -16,12 +16,6 @@
 * Step 1: Install `samsa2` into `/hpc/tools/samsa2/`, be careful, it will be working folder in future analysis.
 
 
-
-
-
-
-
-## Version 2 of the SAMSA pipeline - faster!  Lighter!  More options!  Less waiting!  
 ### New in version 2:
 * DIAMOND integration, allowing for SAMSA2 to be run without ever needing an MG-RAST account.
 * Option to annotate against custom databases (`fasta files with stains you want to show`).
