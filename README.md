@@ -13,18 +13,22 @@
 * All options, read & program location are to be specified in the first section of the script.
 * The script is formated to be run on a HPC using a SLURM job scheduler, but this can be easily changed / removed.
 * The flag --num_alignments 0 in the ribosomal `sortmrna` step has been removed. This caused problems and slowed things down a lot. Plus, we don't care about the rRNA alignments - whether a sequence aligns to 1 or 1,000 rRNA, it's out anyways...
-
 *****
+## Usage protocol and pipeline
+
+
+
+
+
+
 
 ## Version 2 of the SAMSA pipeline - faster!  Lighter!  More options!  Less waiting!  
-
 ### New in version 2:
 * DIAMOND integration, allowing for SAMSA2 to be run without ever needing an MG-RAST account.
 * Option to annotate against custom databases (`fasta files with stains you want to show`).
 * PCA plots and other graphical outputs.
 * Filtering of ribosomes for even more speed.
 ### Dependencies
-
 SAMSA2 requires Python2 for aggregation scripts.  Currently, this pipeline works mostly with Python3, although there may be some errors not yet caught.
 
 The following programs can be downloaded OR can be installed from the binaries provided in the programs/ folder.
