@@ -16,6 +16,7 @@
 * Step 4: `mkdir ~/hpc/tools/samsa2/input_files` and copy fastq files into this folder
 * Step 5: `mkdir ~/hpc/tools/samsa2/result_files` and the results will be set here
 * Step 6: before you run any R script, copy all `annot_function.tsv` and `annot_organism.tsv` to a folder
+* Step 7: and set this folder as the working_directory for the further R script
 * Step 6: pie chart plot: `Rscript Subsystems_pie_charts.R -I ./result/ -O xx -L 5`
 * Step 7:`Rscript ./R_scripts/diversity_graphs.R`
 * Step 8:`Rscript ./R_scripts/diversity_stats.R`
