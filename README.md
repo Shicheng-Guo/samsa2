@@ -15,6 +15,9 @@
 * Step 3: download all reference with `./setup_and_test/full_database_download.bash`, it is very large
 * Step 4: `mkdir ~/hpc/tools/samsa2/input_files` and copy fastq files into this folder
 * Step 5: `mkdir ~/hpc/tools/samsa2/result_files` and the results will be set here
+* Step 6: `Rscript Subsystems_pie_charts.R -I ./result/ -O xx -L 5`
+* Step 7: `Rscript Subsystems_pie_charts.R -I ./result/ -O xx -L 5`
+
 
 ### New in version 2:
 * Option to annotate against custom databases (`fasta files with stains you want to show`).
